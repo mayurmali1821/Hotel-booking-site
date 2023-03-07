@@ -1,0 +1,382 @@
+
+
+    
+
+  
+  .home-container{
+   background-color:whitesmoke;
+  width: 700px;
+  height: 700px;
+  
+  /* text-align: center; */
+  margin-left: 400px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-top: 10px solid gold;
+  border-bottom: 10px solid gold;
+  
+  }
+ 
+.formtext{
+      margin: 25px;
+       padding: 25px;
+      width: 500px;
+      height: 300px;
+  }
+  .form-group button{
+    width: 500px;
+    height:50px;
+    border-radius: 30px;
+    font-size: 25px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+  
+  }
+  .btn-btn{
+    width:150px;
+    height:50px;
+    background-color:gold;
+    box-sizing: border-box;
+    border-radius: 25px;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px gray;
+    
+  }
+  .form-group .btn-btn:hover{
+    background-color:white;
+  }
+  .btn-btn:hover{
+    background-color:white;
+  }
+  .form-group label{
+    color: black;
+      /* text-align: center; */
+      font-size: 25px;
+  }
+  .Gender{
+      padding: 10px;
+      margin: 10px;
+  }
+  
+.number input {
+    width: 80px;
+    font-size: 25px;
+ }
+ .Member{
+
+  font-size: 30px;
+  margin: 20px;
+ }
+ 
+ .contact{
+  /* background-color: lightblue; */
+  /* margin-right: 100px; */
+  font-size: 25px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:white;
+   margin-top: 10px;
+   padding: 10px;
+   font-weight:500;
+}
+.add{
+  margin: 10px;
+
+}
+.con{
+  margin: 10px;
+  
+}
+.pho{
+  margin: 10px; 
+
+}
+.email{
+  margin: 10px;
+  
+}
+.fa-location-dot{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  color: blue;
+  background-color:whitesmoke;
+  position:relative;
+  text-align: center;
+  padding: 15px;
+  margin: 5px;
+  box-sizing: border-box;
+
+  box-shadow: 2px 2px 3px 3px white;
+}
+.fa-phone{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  color: black;
+  background-color:white;
+  position:relative;
+  text-align: center;
+  padding: 15px;
+  margin: 5px;
+  box-sizing: border-box;
+
+  box-shadow: 2px 2px 3px 3px white;
+}
+.fa-address-card{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  color: orange;
+  background-color:white;
+  position:relative;
+  text-align: center;
+  padding: 15px;
+  margin: 5px;
+  box-sizing: border-box;
+
+  box-shadow: 2px 2px 3px 3px white;
+}
+.fa-envelope{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  color:red;
+  background-color:white;
+  position:relative;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+
+  box-shadow: 2px 2px 3px 3px white;
+}
+
+p{
+  
+  color:white;
+  text-align: center;
+  font-size: 20px;
+  /* font-weight: 500; */
+
+}
+
+
+/* .fa-whatsapp{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  color: lightgreen;
+  background-color:white;
+  position:relative;
+  text-align: center;
+  padding: 15px;
+  margin: 5px;
+  box-sizing: border-box;
+
+  box-shadow: 2px 2px 3px 3px white;
+} */
+.fa-house{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  color:burlywood;
+  background-color:white;
+  position:relative;
+  text-align: center;
+  padding: 15px;
+  margin: 5px;
+  box-sizing: border-box;
+
+  box-shadow: 2px 2px 3px 3px white;
+}
+.nav-item{
+  color:orange;
+  font-size: 20px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: Georgia,serif;
+  
+
+}
+h3{
+color:darkblue;
+text-transform: uppercase;
+}
+.navbar{
+  /* margin: 10px; */
+background-color:transparent;
+box-sizing: border-box;
+box-shadow:  5px 5px 5px gray;
+
+}
+.navbar a{
+color: olive
+}
+.navbar a:hover{
+color: orange;
+}
+
+
+
+.pt-5{
+/* background-image: url(image2.avif); 
+*/
+background-color: black;
+font-size: 20px;
+color:white;
+ 
+}
+  .text-uppercase{
+      font-size: 25px;
+      color:gold;
+  }
+ .f-icons{
+ margin: 25px;
+ padding: 25px;
+ color: blueviolet;
+ font-size: 40px;
+ text-align: center;
+  }
+.fa-whatsapp{
+margin: 10px;
+padding: 10px;
+color:white;
+border-radius: 50px;
+box-shadow: 1px 1px 1px black;
+background-color:cadetblue;
+box-sizing: border-box; 
+ 
+
+}
+.fa-facebook{
+margin: 10px;
+padding: 10px;
+color:white;
+border-radius: 50px;
+box-shadow: 1px 1px 1px black;
+background-color:cadetblue;
+box-sizing: border-box;
+}
+.fa-twitter{
+margin: 10px;
+padding: 10px;
+color:white;
+border-radius: 50px;
+box-shadow: 1px 1px 1px black;
+background-color:cadetblue;
+box-sizing: border-box;
+}
+.fa-youtube{
+  box-sizing: border-box;
+margin: 10px;
+padding: 10px;
+color:white;
+border-radius: 50px;
+box-shadow: 1px 1px 1px black;
+background-color: cadetblue;
+}
+
+.fa-facebook:hover{
+margin: 10px;
+padding: 10px;
+color: blue;
+background-color: white;
+}
+.fa-whatsapp:hover{
+margin: 10px;
+padding: 10px;
+color:chartreuse;
+background-color: white;
+}
+
+.fa-twitter:hover{
+margin: 10px;
+padding: 10px;
+color:blueviolet;
+background-color: white;
+}
+.fa-youtube:hover{
+margin: 10px;
+padding: 10px;
+color:red;
+background-color: white;
+}
+.fa-credits{
+  text-align: center;
+  font-size: 20px;
+  color:white;
+}
+.map{
+  padding: 25px;
+
+  margin: 20px;
+  border: 2px solid black;
+}
+.fa-house{
+  color: tan;
+  font-size: 25px;
+  padding: 10px;
+   margin: 10px;
+   
+}
+.fa-phone{
+  color: tan;
+  font-size: 25px;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+.fa-envelope{
+  color: tan;
+  font-size: 25px;
+  margin: 10px;
+
+
+}
+.fa-house{
+  background-color: white;
+  color:cadetblue;
+  font-size: 25px;
+  padding: 10px;
+   margin: 10px;
+   border-radius: 50px;
+}
+.fa-mobile{
+  background-color: white;
+  color:black;
+  font-size: 25px;
+  padding: 10px;
+   margin: 10px;
+   border-radius: 50px;
+}
+
+.fa-envelope{
+  background-color: white;
+  color: red;
+  font-size: 25px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50px;
+
+
+}
+.fa-phone{
+  background-color: white;
+  color:blue;
+  font-size: 25px;
+  padding: 10px;
+   margin: 10px;
+   border-radius: 50px;
+
+}
+h4{
+color: black;
+text-align: center;
+font-size: 30px;
+}
+h2{
+  text-align: center;
+}

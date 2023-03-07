@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/718d67c8f8.js" crossorigin="anonymous"></script>
+
+</head>
+<style>
+ * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+video{
+ margin: 25px;
+/* position: relative; */
+/* float: right; */
+}
+.heading{
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+.pt-5{
+background-color: blueviolet;
+background-size: cover;
+font-size: 20px;
+color: white;
+    }
+    .text-uppercase{
+        font-size: 25px;
+        color:gold;
+    }
+   .f-icons{
+   margin: 25px;
+   padding: 25px;
+   color: blueviolet;
+   font-size: 40px;
+   text-align: center;
+    }
+.fa-whatsapp{
+ margin: 10px;
+ padding: 10px;
+  color:white;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px black;
+  background-color:cadetblue;
+  box-sizing: border-box;
+  
+  
+}
+.fa-facebook{
+ margin: 10px;
+ padding: 10px;
+  color:white;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px black;
+  background-color:cadetblue;
+  box-sizing: border-box;
+}
+.fa-twitter{
+ margin: 10px;
+ padding: 10px;
+  color:white;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px black;
+  background-color:cadetblue;
+  box-sizing: border-box;
+}
+.fa-youtube{
+    box-sizing: border-box;
+ margin: 10px;
+ padding: 10px;
+  color:white;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px black;
+  background-color: cadetblue;
+}
+.fa-whatsapp:hover{
+ margin: 10px;
+ padding: 10px;
+  color:chartreuse;
+  background-color: white;
+}
+.fa-facebook:hover{
+ margin: 10px;
+ padding: 10px;
+  color: blue;
+  background-color: white;
+}
+.fa-twitter:hover{
+ margin: 10px;
+ padding: 10px;
+  color:blueviolet;
+  background-color: white;
+}
+.fa-youtube:hover{
+ margin: 10px;
+ padding: 10px;
+  color:red;
+  background-color: white;
+}
+.fa-credits{
+    text-align: center;
+    font-size: 20px;
+    color:white;
+}
+.map{
+    padding: 25px;
+ 
+    margin: 20px;
+    border: 2px solid grey;
+}
+.fa-house{
+    color: tan;
+    font-size: 25px;
+    padding: 10px;
+     margin: 10px;
+     
+}
+.fa-phone{
+    color: tan;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.fa-envelope{
+    color: tan;
+    font-size: 25px;
+    margin: 10px;
+
+
+}
+.fa-house{
+    background-color: white;
+    color:cadetblue;
+    font-size: 25px;
+    padding: 10px;
+     margin: 10px;
+     border-radius: 50px;
+}
+.fa-mobile{
+    background-color: white;
+    color:black;
+    font-size: 25px;
+    padding: 10px;
+     margin: 10px;
+     border-radius: 50px;
+}
+
+.fa-envelope{
+    background-color: white;
+    color: red;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+
+
+}
+.fa-phone{
+    background-color: white;
+    color:blue;
+    font-size: 25px;
+    padding: 10px;
+     margin: 10px;
+     border-radius: 50px;
+ 
+}
+/* navigation  */
+.nav-item{
+    color:orange;
+    font-size: 20px;
+    padding: 5px;
+    
+
+}
+h3{
+  color:darkblue;
+  text-transform: uppercase;
+}
+.navbar{
+background-color:transparent;
+  box-sizing: border-box;
+  box-shadow:  5px 5px 5px gray;
+text-transform: uppercase;
+font-size: 25px;
+font-family: Georgia,serif;
+}
+.navbar a{
+  color: black
+}
+.navbar a:hover{
+color: orange;
+}
+
+.btn-btn{
+width:150px;
+height:50px;
+background-color:aquamarine;
+box-sizing: border-box;
+border-radius: 25px;
+font-size: 20px;
+box-shadow: 5px 5px 5px gray;
+}
+.btn-btn:hover{
+  background-color: wheat;
+}
+
+</style>
+<body>
+  <nav class="navbar  navbar-expand-lg ">
+    
+    <div class="container">
+      
+      <a class="navbar-brand" href="#"><img src="hotel indigo.png" width="150" height="90">
+    </a>
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-1 mb-lg-0-">
+          <li class="nav-item">
+            <a class=" nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="room.html">Rooms</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="room.html">Services</a>
+            <li class="nav-item">
+                <a class="nav-link" href="Team.html">Team</a>
+
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="Gallery.html">Photos</a>
+
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="contact us.html">Contact US</a>
+
+             </li>
+             <li class="nav-item">
+                
+
+             </li>
+            </ul>
+       
+        <form class="d-flex" role="search">
+          <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+          <button class="btn-btn" type="submit">BOOK NOW</button>
+        </form>
+      </div>
+    </div>
+</div>
+</nav>
+  
+  <h1 class="heading">Welcome to Hotel indigo our  beautiful view</h1>
+   <div class="row">
+  <div class="column">
+    <img src="101.jpg" alt="Snow" width="450px" height="350px" >
+  </div>
+  <div class="column">
+    <img src="102.jfif" alt="Forest"  width="450px" height="350px">
+  </div>
+  <div class="column">
+    <img src="103.jfif" alt="Mountains" width="450px" height="350px">
+  </div>
+  <div class="column">
+    <img src="room3.jpg" alt="Snow" width="450px" height="350px">
+  </div>
+  <div class="column">
+    <img src="room5.webp" alt="Forest" width="450px" height="350px">
+  </div>
+  <div class="column">
+    <img src="bedroom1.jfif" alt="Mountains" width="450px" height="350px">
+  </div>
+  <div class="column">
+    <img src="bedroom2.jpg" alt="Snow" width="450px" height="350px">
+  </div>
+  <div class="column">
+    <img src="bedroom3.jpg" alt="Forest" width="450px" height="350px">
+  </div>
+  <div class="column">
+    <img src="bedroom4.jpg" alt="Mountains" width="450px" height="350px">
+  </div>
+  <h2 class="heading">watching  the video of hotel indigo  </h2>
+
+  <video width="400" height="380"  loop="true" autoplay="autoplay" controls muted>
+    <source src="hotel video.mp4" type="video/mp4">
+    
+  </video>
+
+
+</div>
+<footer class=" pt-5 pb-4">
+        
+  <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left ">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold ">ABOUT US</h5>
+              <p> We pride ourselves in being one of the most eco-friendly hotels in the temple city of Udupi. Right from the ground up, the materials used for construction, The waste water from the sewage treatment plant (STP) is connected to the adjacent Public Park to water the Plants.
+
+                  From the latest 5 star amenities to the greenscape across the hotel, Samanvay Udupi has made important environmental improvements to its structure in order to minimize its impact on the environment.</p>
+          </div>
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold ">COSTOMER POLICIES</h5>
+          <p>Contact Us</p>
+          <p>FAQ</p>
+          <p>T&C</p>
+          <p>Terms Of Use</p>
+          <p>Cancelltion</p>
+          <p>Returns</p>
+          <p>Privacy Policy</p>
+          
+          
+          
+
+          </div>
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold ">USEFUL LINKS</h5>
+          <p>Blog</p>
+          <p>Facebook</p>
+          <p>Corporate information</p>
+          <p>Site Map</p>
+          </div>
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold ">CONTACT</h5>
+          <p>
+              <i class="fa-solid fa-house"></i>212 ,NEW DILLI ,MAHARASTARA INIDA.
+          </p>
+          <p>
+              <i class="fa-solid fa-envelope"></i>Indigohotel9855@Gmail.com
+          </p>
+          <p>
+              <i class="fa-solid fa-mobile"></i>9168791488555
+          </p>
+          <p>
+              <i class="fa-sharp fa-solid fa-phone"></i>789-255-248
+          </p>
+          </div>
+          <div class="container">
+              <div class="f-icons">
+                  <a href="#" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
+                  <a href="#" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+                  <a href="#" target="_blank"> <i class="fa-brands fa-twitter"></i></a>
+                  <a href="#" target="_blank"> <i class="fa-brands fa-youtube"></i></a>
+              </div>
+              <div class="fa-credits">
+                  Copyright 2022 All rights reserved||Thank You for visiting for website by Indigohotel
+              </div>
+          </div>
+      </div>
+      <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448183.73911805626!2d76.81306753718576!3d28.64667724868997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1662911536825!5m2!1sen!2sin" width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+  </div>
+</div>
+</div>
+</footer>
+</body>
+</html>
